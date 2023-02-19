@@ -1,0 +1,18 @@
+@import './mixins';
+
+.card-img-top {
+  @include imgCoverWithHeight(25vh)
+}
+
+.carousel img {
+  @include imgCoverWithHeight(50vh)
+}
+
+.modal img {
+  @include imgCoverWithHeight(60vh)
+}
+
+.card-img-carrito {
+  @include imgCoverWithHeight(15vh);
+  width: 40vw;
+}
